@@ -2,9 +2,6 @@ name: "Quality"
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 8 * * *'
-
 jobs:
   setup:
     runs-on: ubuntu-latest
